@@ -1,13 +1,13 @@
 {% set name = "inform" %}
-{% set version = "1.32" %}
+{% set version = "1.33" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/inform-{{ version }}.tar.gz
-  sha256: 1a4743bb85c228647708eb7261af424267797d5ac600be589d2f48e4a9419247
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/inform-{{ version }}.tar.gz
+  sha256: 23637b561da3fbfac6be0206bc1ecf61273164eadbdb0e12fd58ab428c652be4
 
 build:
   noarch: python
